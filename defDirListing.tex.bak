@@ -1,0 +1,9 @@
+%http://tex.stackexchange.com/questions/166386/how-can-i-automatically-include-all-source-code-files-located-in-a-given-directo#166453
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\listDir#1{%
+  \app@exe{ls #1/* | xargs cat >> \jobname.tmp}%
+  \lstinputlisting{\jobname.tmp}
+  \AtEndDocument{\app@exe{rm -f #1/\jobname.tmp}}}
+\makeatother

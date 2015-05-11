@@ -1,0 +1,9 @@
+%http://tex.stackexchange.com/questions/166386/how-can-i-automatically-include-all-source-code-files-located-in-a-given-directo#166453
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\listDir#1{%
+  \app@exe{for i in $(ls #1/*); do echo \@backslashchar 1 >> \jobname.tmp; done}%
+  \input{\jobname.tmp}%
+  \AtEndDocument{\app@exe{rm -f \jobname.tmp}}}
+\makeatother

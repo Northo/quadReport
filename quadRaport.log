@@ -1,0 +1,322 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.6)  11 MAY 2015 19:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**quadRaport.tex
+(./quadRaport.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count91
+\lst@currlwidth=\dimen111
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen112
+\lst@width=\dimen113
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen114
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count98
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+\@float@every@code=\toks19
+\c@code=\count99
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(./quadRaport.aux)
+\openout1 = `quadRaport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count101
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen115
+\scratchbox=\box30
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen116
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks21
+)
+Missing character: There is no Ã in font cmr17!
+Missing character: There is no ¦ in font cmr17!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 56.
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¦ in font cmr12!
+ (./quadRaport.toc
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ¥ in font cmbx10!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `quadRaport.toc'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¸ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no ¥ in font cmbx12!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¦ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¥ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¦ in font cmr9!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 69.
+
+(./codes.list (../Quadcopter/Quadcopter/config.h [2])
+(../Quadcopter/Quadcopter/FlightController.ino
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 25.
+ [3])
+(../Quadcopter/Quadcopter/Gyro.ino) (../Quadcopter/Quadcopter/Quadcopter.ino
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+
+[4]
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¦ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+) (../Quadcopter/Quadcopter/RX.ino [5])
+(../Quadcopter/Quadcopter/libraries/FreeSixIMU/CommunicationUtils.cpp)
+(../Quadcopter/Quadcopter/libraries/FreeSixIMU/CommunicationUtils.h)
+(../Quadcopter/Quadcopter/libraries/FreeSixIMU/DebugUtils.h [6])
+(../Quadcopter/Quadcopter/libraries/FreeSixIMU/FIMU_ADXL345.cpp [7] [8]
+[9]
+Missing character: There is no Â in font cmr8!
+Missing character: There is no µ in font cmr8!
+ [10] [11] [12] [13] [14])
+(../Quadcopter/Quadcopter/libraries/FreeSixIMU/FIMU_ADXL345.h [15] [16]
+[17]) (../Quadcopter/Quadcopter/libraries/FreeSixIMU/FIMU_ITG3200.cpp [18]
+[19] [20] [21]) (../Quadcopter/Quadcopter/libraries/FreeSixIMU/FIMU_ITG3200.h
+[22] [23] [24]) (../Quadcopter/Quadcopter/libraries/FreeSixIMU/FreeSixIMU.cpp
+[25] [26]
+Overfull \hbox (91.61482pt too wide) in paragraph at lines 134--135
+[][][][][] 
+ []
+
+[27] [28] [29]) (../Quadcopter/Quadcopter/libraries/FreeSixIMU/FreeSixIMU.h
+[30]) (../Quadcopter/Quadcopter/libraries/FreeSixIMU/LICENSE.txt [31] [32]
+[33] [34] [35] [36] [37] [38] [39])
+(../Quadcopter/Quadcopter/libraries/Gyro/Gyro.cpp)
+(../Quadcopter/Quadcopter/libraries/Gyro/Gyro.h)
+(../Quadcopter/Quadcopter/libraries/PID/keywords.txt)
+(../Quadcopter/Quadcopter/libraries/PID/PID.cpp [40])
+(../Quadcopter/Quadcopter/libraries/PID/PID.h)) [41] (./quadRaport.aux) ) 
+Here is how much of TeX's memory you used:
+ 5655 strings out of 495028
+ 76124 string characters out of 6181498
+ 882147 words of memory out of 5000000
+ 8803 multiletter control sequences out of 15000+600000
+ 9115 words of font info for 32 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 31i,6n,36p,304b,2058s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on quadRaport.pdf (41 pages, 460329 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
