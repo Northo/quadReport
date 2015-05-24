@@ -4,6 +4,8 @@
 \usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
 
 \floatstyle{ruled}
 \newfloat{code}{thp}{lop}
@@ -54,6 +56,7 @@ Faglærer: Eivind Tjensvoll}
 
 \begin{document}
 \maketitle
+\newpage
 
 \tableofcontents
 \newpage
@@ -63,25 +66,50 @@ Faglærer: Eivind Tjensvoll}
 \section{Visjon}
 Målet med prosjektet var, fra starten av, å konstruere et quadcopter med passelige flyegenskaper. Det var derimot også motsetninger innad i gruppen, Martin og Karsten var hovedsakelig opptatt av de cinematografiske mulighetene, mens Thorvald ønsket å automatisere så mye som mulig.
 \section{Fremgangsmåte}
-Gruppen hadde mellom seg svært lite kunnskap om Arduino, fastvare og quadcoptre, det ble derfor brukt mye tid på research. Forum, Arduino Playground og YouTube ble i stor grad brukt, da man kan lære mye av andres erfaringer. 
+Gruppen hadde mellom seg svært lite kunnskap om Arduino, fastvare og quadcoptre, det ble derfor brukt mye tid på research. Forum, Arduino Playground og YouTube ble flittig brukt, da man kan lære mye av andres erfaringer.
 
-%Skal ikke nødvendigvis være her, men så er den i det minste laget
-\begin{tabular}{c}
-
-\end{tabular}
 \section{Produkt}
 \subsection{Programvare}
 \section{Innkjøps-prosess}
-utgangspunktet vårt var fra quadcopter-gruppen året før. Men siden de ikke hadde et komplett sett med deler valgte vi å bruke en del tid på å finne ut av hvilke deler som ville passe vårt prosjekt best.
+Utgangspunktet ble fjorårets quadcoptergruppe. Men siden de ikke hadde et komplett sett med deler valgte vi å bruke en del tid på å finne ut av hvilke deler som ville passe vårt prosjekt best. De premissene som ble lagt til grunn var at det skulle være stort nok til å eventuellt kunne feste et GoPro på, ha kraftige nok motorer til å være stabilt, og være av en viss størrelse, for stabilitet.
 \subsection{Motorer og ESC}
-gruppen året før hadde ikke et fult sett med motorer i tillegg hadde de ingen ESCer(forklaring?). det stod lite om spesifikasjonene til de motorene vi hadde på internett samt at de var vanskelige å få tak i. derfor valgte vi å bruke en del tid på å finne nye motorer som var egnet for vårt prosjekt. 
-vi ville ha noen som det var mye innformasjon og som hadde fått gode omtaler på internett og foruma, siden vi ikke hadde så mye erfaring med dette. Den opprinnelige planen var å kjøpe motorer hos Hobbyking. Disse motorene virket alsidige og som sagt hadde fått gode omtaler på hobbyking sin nettside. Thorvald hadde lyst til at vi skulle kjøpe noen motorer som hadde høyere RPM(rounds per minute) som gjør at quadcopteret blir mer smidig, mot å ofre litt løftekraft. Martin og Karsten ville heller ha de opprinelige motorene etter som at quadcopteret trengte mer løft/torque for å feste et kamera på undersiden.
-Vi hadde ikke noen spesiell formening om hvilke ESCer vi skulle velge bortsett fra at de skulle være kompatible med motorene vi hadde valgt og at de hadde gode omtaler generelt på internett.
-\subsection{batterier}
-Den forrige gruppen hadde overraskende mange batterier. og vi valgte å s
+Gruppen året før hadde ikke et fult sett med motorer i tillegg hadde de ingen ESCer\footnote{Electronic Speed Controller. Oversetter PPM signaler fra Arduino til analogt signal til motorene}. Motorene fra forrige år var umærkede, og det var vannskelig å finne spesifikasjoner. Vi klarte heller ikke å finne noe omtale om dem. På grunn av dette ble mye tid viet til å finne gode motorer og ESC.\\
+Da vi ikke hadde noe kunnskap om elektronikk eller motorer, ble, som sagt, mye tid brukt på research. Vi konkluderte med at det var viktig å ha motorer med mye god omtale og stor brukergruppe, slik at det skulle bli lettere å løse eventuelle problemer. Vi ønsket allsidige motorer, som kunne fungere i mange ulike oppsett, da vi ikke hadde en klar formening om bruken av quadcopteret. Thorvald hadde lyst til at vi skulle kjøpe ``Turnigy Aerodrive SK3 - 2822-1090kv'', som høyere RPM(rounds per minute) som gjør at quadcopteret blir mer smidig og mer akselerasjon, mot å ofre litt løftekraft. Martin og Karsten ville heller gå for ``NTM Prop Drive Series 28-26 1100kv / 252w'' som er en kraftikere motor, men med lavere topphastighet og akselerasjon. Disse har derimot bedre løftekapasitet, som gjør dem egnet for filming.
+Vi kom til den konklusjonen at for vårt bruk ville ikke ESC være avgjørende, så her fokuserte vi på at de skulle ha god omtale og dokumentasjon, og så klart at de kunne håndtere den strømmen motorene trengte.
+\subsection{Batterier}
+Den forrige gruppen hadde overraskende mange batterier. De hadde blant annet to 1800mAh 7.4v LiPO batterer. Disse fungerte utmerket seriekoblet, da de har en spenning på 14.8v.
+\subsubsection{Batterilader}    
+LiPo batterier er svært sensitive, og behøver riktig utstyr for å lades, noe vi først ikke hadde tilgang på. Etterhvert skaffet læreren vår en universallader som kunne lade mange forskjellige typer batterier. Vi fikk derfor i oppgave å finne ut hvordan denne laderen fungerte og hvordan man konfigurerte den for hvert enkelt batteri. Laderen er fra Hyperion og heter EOS0606i AC/DC.\\
+Et problem var at batteriene bruker en xt60 kobling, noe vi ikke hadde, så det var ikke mulig å koble batteriene til laderen. Vi brukte en hack, der 3.5mm gullkoblinger blir brukt(figur \ref{hack:3.3mm}).
+\begin{figure}[ht]
+\center
+\includegraphics[width=0.75\textwidth]{gullkobling}
+\caption{3.5mm gullkobling hack for xt60\label{hack:3.3mm}}
+\end{figure}
 
+\subsection{Ramme}
+Det var ikke noe rammer fra tidligere år. Vi ville ha en ramme som var stor nok til at den kunne bære alle de komponentene vi hadde lyst til å ha på. I tillegg hadde vi lyst til å ha muligheten til å feste et kamera på undersiden, og vi trengte derfor en ramme hvor man kunne montere kamerafeste under. For å få mer stabilitet valgte vi også å ha en stor ramme. Vi gikk for DJI Flame Wheel F450, som er en veldig populær ramme som oppfyller våre kriterier.\\
+En finesse med rammen er at den har et integrert strømfordelingssystem i selve rammen. Dette gjør at man slipper å lage et eget system med eksterne ledninger, noe som er rotete, tungt og plasskrevende, samt at det er tidskrevende og vannskelig å lodde et slikt oppsett.
+\subsubsection{Bestillingsproblematikk}
+Uheldigvis hadde ikke Hobby King mulighet til å fakturere skolen, slik at vi ikke kunne handle derfra. Vi fant en alternativ nettbutikk, Elefun, som hadde et bra utvalg av RC produkter; Elefun er også norsk, slik at frakt går fortere. F450 rammen var utsolgt i hele Norge, og da vi begynnte å få dårlig tid endte vi opp med å kjøpe en pakke med ramme, ESC og motorer. Til et annet prosjekt har vi lært at det er viktig få tak i deler tidligere, og ikke havne i den samme knipa som vi gjorde. Motorene vi endte opp med er betydelig dårligere enn de vi hadde sett oss ut, de er både tregere, har dårligere akselerasjon og mindre løftekraft. Planen var å eventuellt oppgradere dem sener om mulig, da koden og resten av oppsettet fortsatt ville være likt.
+
+\subsection{Fjernkontroll og mottager}
+Teknologi og Forskningslære hadde en veldig god 8 kanals fjernkontroll med mottager. Fjernkontrollen bruker PPM(pulse position modulation) og fjernkotrollen gjør det om til PWM(pulse width modulation) for de ulike kanalene(figur \ref{ppm}).
+\begin{figure}[ht]
+\center
+\includegraphics[width=0.75\textwidth]{PPM}
+\caption{Samme signal i PPM og PWM\label{ppm}}{\url{http://forum.arduino.cc/index.php?topic=254599.0}}
+\end{figure}
+\section{Ferdig produkt}
+\subsection{Monteringsplate av plast}
+For å enkelt kunne montere komponenter på rammen ble det montert på en plate av plast, som resten av komponentene enkelt kan skrus fast til, se figur \ref{plate}. Denne plata ble festet til rammen ved at to plastskiver står i klem på hver sin side av topplata på rammen.
+\begin{figure}
+\center
+\includegraphics[width=0.75\textwidth]{Plate}
+\caption{Arduino festet med vibrasjonsdemper i monteringsplate.\label{plate}}
+\end{figure}
 \subsection{Fastvare}
 \section{Vedlegg}
 \subsection{Quadcopter kildekode}
-%\input{codes.list}
+\input{codes.list}
 \end{document}

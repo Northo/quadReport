@@ -3,6 +3,9 @@
 \lstinputlisting{../Quadcopter/Quadcopter/Gyro.ino}
 \lstinputlisting{../Quadcopter/Quadcopter/Quadcopter.ino}
 \lstinputlisting{../Quadcopter/Quadcopter/RX.ino}
+\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/keywords.txt}
+\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/PID.cpp}
+\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/PID.h}
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/CommunicationUtils.cpp}
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/CommunicationUtils.h}
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/DebugUtils.h}
@@ -12,9 +15,4 @@
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/FIMU_ITG3200.h}
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/FreeSixIMU.cpp}
 \lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/FreeSixIMU.h}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/FreeSixIMU/LICENSE.txt}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/Gyro/Gyro.cpp}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/Gyro/Gyro.h}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/keywords.txt}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/PID.cpp}
-\lstinputlisting{../Quadcopter/Quadcopter/libraries/PID/PID.h}
+\lstinputlisting[language=]{../Quadcopter/Quadcopter/libraries/FreeSixIMU/LICENSE.txt}

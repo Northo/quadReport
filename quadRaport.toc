@@ -1,10 +1,16 @@
-\contentsline {section}{\numberline {1}Visjon}{2}
-\contentsline {section}{\numberline {2}Fremgangsm\r ate}{2}
-\contentsline {section}{\numberline {3}Produkt}{2}
-\contentsline {subsection}{\numberline {3.1}Programvare}{2}
-\contentsline {section}{\numberline {4}Innkj\IeC {\o }ps-prosess}{2}
-\contentsline {subsection}{\numberline {4.1}Motorer og ESC}{2}
-\contentsline {subsection}{\numberline {4.2}batterier}{2}
-\contentsline {subsection}{\numberline {4.3}Fastvare}{2}
-\contentsline {section}{\numberline {5}Vedlegg}{2}
-\contentsline {subsection}{\numberline {5.1}Quadcopter kildekode}{2}
+\contentsline {section}{\numberline {1}Visjon}{3}{section.1}
+\contentsline {section}{\numberline {2}Fremgangsm\r ate}{3}{section.2}
+\contentsline {section}{\numberline {3}Produkt}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Programvare}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}Innkj\IeC {\o }ps-prosess}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Motorer og ESC}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Batterier}{3}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Batterilader}{3}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}Ramme}{4}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Bestillingsproblematikk}{4}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}Fjernkontroll og mottager}{4}{subsection.4.4}
+\contentsline {section}{\numberline {5}Ferdig produkt}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}Monteringsplate av plast}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Fastvare}{5}{subsection.5.2}
+\contentsline {section}{\numberline {6}Vedlegg}{5}{section.6}
+\contentsline {subsection}{\numberline {6.1}Quadcopter kildekode}{5}{subsection.6.1}
